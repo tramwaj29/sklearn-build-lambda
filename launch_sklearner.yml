@@ -29,7 +29,7 @@
           - default
 
     - s3:
-        bucket: tmp.serverlesscode.com
+        bucket: 10c-lambda-demo
         object: "sklearn/{{ ectwo.instance_ids[0] }}-site-pkgs.zip"
         dest: /tmp/sklearn-site-packages.zip
         mode: get
